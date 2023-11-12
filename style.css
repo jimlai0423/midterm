@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom,#000221,rgb(21, 60, 123));
+      display: flex;
+      margin: 0;
+      width: 100%;
+    }
+
+header{
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    font-size: 75px;;
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    left: 3px;
+}
+
+nav{
+    position: sticky;
+    margin-right: 20px;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: block;
+    text-align: center;
+    background-color: rgb(2, 25, 47);
+    padding: 10px;
+    padding-left: 10px;
+    z-index: 1;
+}
+nav a{
+    margin-right: 50px;
+    font-family: "微軟正黑體";
+    color:white;
+    font-size: 20px;
+}
+
+.Nicon{
+    width: 0.85cm;
+    height: auto;
+    vertical-align:middle;
+    max-width: 1cm;
+    max-width: 1cm;
+}
+
+.image{
+    width: 180px; /* 調整圖片的寬度 */
+    height: 180px; /* 調整圖片的高度 */
+    border-radius: 50%; /* 將圖片的邊框半徑設為50%，使其呈現圓形 */
+    object-fit: cover; /* 確保圖片完全填滿圓形容器 */
+    display: inline-block;
+    margin: 0;   
+}
+
+.infor{
+    font-family: "微軟正黑體";
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top:25px;
+    text-align: left;
+}
+
+table{
+    font-family: "微軟正黑體";
+    width: 1500px;
+    font-size: 30px;
+    margin: 20px 10px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgb(2, 25, 47);    
+}
+
+.contact{
+    position: relative;
+    text-align: center;
+    background-color: rgb(2, 25, 47);
+    padding: 5px;
+    margin: 20px 10px;
+    background-size: 100% auto;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 10px;
+}
+
+.Ticon{
+    max-width: 1cm;
+    max-width: 1cm;
+    margin: 0.05cm;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.progress-container {
+    width: 300px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;   
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 10px;
+    background-color: green;
+    width: 70%; /* Initial width set to 0 */
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-bar-two {
+    height: 100%;
+    border-radius: 10px;
+    background-color: green;
+    width: 60%; /* Initial width set to 0 */
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-bar-three {
+    height: 100%;
+    border-radius: 10px;
+    background-color: green;
+    width: 50%; /* Initial width set to 0 */
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-bar-four {
+    height: 100%;
+    border-radius: 10px;
+    background-color: green;
+    width: 45%; /* Initial width set to 0 */
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-bar-five {
+    height: 100%;
+    border-radius: 10px;
+    background-color: green;
+    width: 67%; /* Initial width set to 0 */
+    transition: width 0.3s ease-in-out;
+}
+
+#header{
+    display: flex;
+    width: 100%
+}
+
+.license{
+    font-family: "微軟正黑體";
+    width: 1350px;
+    font-size: 27px;
+    text-align: center;
+    margin: 20px 10px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 5%;
+    right: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgb(2, 25, 47);    
+}
+
+.Ltitle{
+    font-family: "微軟正黑體";
+    color: white;
+    font-size: 30px;
+}
+
+.license1{
+    width: 8.5cm;
+    height: auto;
+}
+
+.rtmart{
+    width: 10cm;
+    height: auto;
+}
+
+
